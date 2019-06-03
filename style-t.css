@@ -1,0 +1,44 @@
+body{
+ background-image:url('images/bg2.jpg');
+ background-repeat:repeat;
+background-size: auto;
+}
+.title {
+    font-family: "Montserrat";
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    letter-spacing: 1px;
+}
+h1 {
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 120px;
+    line-height: .75;
+    margin: 10px 0;
+    font-weight: black;
+}
+.white {
+    text-decoration: none;
+    color: #FFF;
+    transition: .35s ease-in-out;
+    left: 15px;
+    bottom: 15px;
+    font-family: "Montserrat";
+    font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+    padding: 15px 25px;
+    margin-top: 50px;
+}
+.white:hover {
+    color: rgba(255, 255, 255, 0.644);
+}
